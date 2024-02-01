@@ -7,7 +7,7 @@ def CreateAllList(filename):
     indexList = []
 
     # open file
-    with open(f'RunbookComparisonUtility/{filename}', 'r') as f:
+    with open(f'{filename}', 'r') as f:
         index = str(f.read())
 
         # initialize flags and runbook link
