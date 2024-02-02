@@ -15,4 +15,15 @@ These scripts will allow you to automatically check to see if the Public Runbook
 
 ## How to Use
 
+Ensure you have `Git`, `Pip` and `Python3` installed before continuing.
+
+Clone the repository by running this command `git clone https://github.com/joshshiman/RunbookComparisonUtility.git`
+
+Create a virtual environment in the terminal of your editor by using `python -m venv venv`
+
+Activate the virtual environment by running the following in your terminal `source venv/bin/activate`
+
+Install Dependencies `pip3 install -r requirements.txt`
+
+
 Run the `main.py` file
